@@ -1,0 +1,30 @@
+.lista__propaganda {
+    display: flex;
+    width: 85vw;
+    gap: 64px;
+    padding: 0 32px 96px 32px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.propaganda__titulo {
+    font-size: 60px;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--cor-titulo);
+}
+
+.propaganda__subtitulo {
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-subtitulo);
+    margin: 1em 0;
+}
+
+.propaganda__texto {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-texto);
+}

@@ -1,0 +1,21 @@
+@import url("navbar.css");
+@import url("cabecalho.css");
+@import url("propaganda.css");
+@import url("descricao.css");
+@import url("vagas.css");
+@import url("depoimentos.css");
+@import url("rodape.css");
+
+:root{
+    --cor-de-fundo: #FFFFFF;
+    --fonte-principal: "Inter";
+    --cor-titulo: #8E2424;
+    --cor-texto: #667085;
+    --cor-subtitulo: #101828;
+}
+
+body{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}

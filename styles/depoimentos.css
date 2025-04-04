@@ -1,0 +1,45 @@
+.depoimentos {
+    background: #C3191908;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 32px;
+    margin: 64px 64px 64px 64px;
+    border-radius: 16px;
+}
+
+.depoimentos__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor-titulo);
+    text-align: center;
+}
+
+.depoimentos__subtitulo {
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--cor-subtitulo);
+    text-align: center;
+}
+
+.depoimentos__imagem {
+    height: 56px;
+    width: 56px;
+}
+
+.depoimentos__nome {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-subtitulo);
+}
+
+.depoimentos__cargo {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-texto);
+}
